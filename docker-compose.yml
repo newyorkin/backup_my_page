@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  backup:
+    build: .
+    volumes:
+      - ./backups:/backups
+      - ./logs:/var/log
+    restart: unless-stopped

@@ -1,0 +1,9 @@
+/backups/*.html {
+    daily              
+    rotate 180        
+    missingok        
+    compress       
+    delaycompress 
+    notifempty   
+    create 0644 1000 1000 
+}
