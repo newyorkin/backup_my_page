@@ -1,1 +1,1 @@
-0/5 * */* * * /usr/local/bin/backup.sh
+0 0 * * * root /usr/local/bin/backup.sh

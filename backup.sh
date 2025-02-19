@@ -1,13 +1,13 @@
 #!/bin/bash
 
-BACKUP_DIR="/backups"
-
 source /config.env
 
 if [ -z "$BACKUP_URL" ]; then
   echo "Ошибка: Переменная BACKUP_URL не найдена в конфигурационном файле."
   exit 1
 fi
+
+BACKUP_DIR="/backups"
 
 # Создаём бэкап
 echo "Создаю бэкап..."
